@@ -1,0 +1,20 @@
+Penjelasan Aplikasi
+
+Aplikasi ini adalah sebuah utilitas yang dirancang untuk mendeteksi aktivitas pengguna dan keadaan wajah pengguna melalui webcam. 
+Aplikasi ini bertujuan untuk mencegah komputer tetap menyala jika pengguna tertidur atau tidak ada aktivitas dalam waktu yang ditentukan. 
+Berikut adalah fitur utama yang disediakan oleh aplikasi ini:
+
+Deteksi Aktivitas Pengguna: 
+Aplikasi ini menggunakan pustaka pynput untuk memantau aktivitas keyboard dan mouse. Jika pengguna mengetik atau menggerakkan kursor, aplikasi akan mencatat waktu aktivitas terakhir.
+
+Deteksi Wajah:
+ Aplikasi ini menggunakan OpenCV untuk mendeteksi wajah pengguna melalui webcam. Jika wajah tidak terdeteksi dalam waktu tertentu, aplikasi akan menganggap pengguna mungkin tertidur.
+
+Shutdown Otomatis: 
+Jika tidak ada aktivitas yang terdeteksi dalam waktu yang telah ditentukan, aplikasi akan memberikan peringatan dan kemudian mematikan komputer.
+
+Antarmuka GUI: 
+Aplikasi ini memiliki antarmuka grafis menggunakan Tkinter dengan tombol untuk memulai dan menghentikan deteksi, serta tombol About yang menampilkan informasi pengembang dan tautan ke situs web.
+
+Notifikasi Pengguna: 
+Aplikasi ini menampilkan pesan di GUI yang menunjukkan status aktivitas seperti "Pengguna masih mengetik" dan "Pengguna masih menggerakkan kursor", serta status deteksi wajah.

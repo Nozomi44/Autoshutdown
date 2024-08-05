@@ -1,0 +1,5 @@
+Kebutuhan Sistem
+
+-Windows dengan Python terinstal (Versinya bebas diusahakan versi terbaru saja).
+-Webcam yang berfungsi untuk deteksi wajah.
+-Paket Python yang diperlukan: "pyinstaller", "opencv-python-headless", "pynput", dan "tkinter".

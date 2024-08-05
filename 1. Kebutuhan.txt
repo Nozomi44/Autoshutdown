@@ -1,0 +1,29 @@
+Untuk menjalankan aplikasi ini dan mengonversi skrip Python menjadi file executable di Windows, Anda perlu menginstal beberapa paket dan perangkat lunak. Berikut adalah daftar yang harus Anda instal:
+
+1. Python
+Pastikan Anda telah menginstal Python di komputer Anda. Anda dapat mengunduh Python dari [situs resmi Python](https://www.python.org/downloads/).
+
+2. pip
+pip adalah manajer paket untuk Python. Biasanya, pip sudah terpasang bersama dengan instalasi Python. 
+
+3. PyInstaller
+PyInstaller digunakan untuk mengonversi skrip Python menjadi file executable.
+
+4. OpenCV
+OpenCV digunakan untuk deteksi wajah. 
+
+5. Tkinter
+Tkinter adalah pustaka standar untuk membuat antarmuka GUI di Python. 
+
+6. pynput
+pynput digunakan untuk mendengarkan aktivitas keyboard dan mouse.
+
+7. webbrowser
+Pustaka `webbrowser` sudah termasuk dalam instalasi standar Python, jadi Anda tidak perlu menginstalnya.
+
+Daftar Lengkap Perintah yang Harus Dijalan di Terminal/Command Prompt:
+```sh
+pip install pyinstaller
+pip install opencv-python-headless
+pip install pynput
+```

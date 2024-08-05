@@ -1,0 +1,26 @@
+Changelog Aplikasi Versi Pertama (v1.0.0)
+v1.0.0 - Rilis Awal
+Tanggal Rilis: 05 Agustus 2024
+
+Fitur Utama:
+
+-Deteksi Aktivitas Pengguna: Pemantauan aktivitas keyboard dan mouse menggunakan pynput.
+-Deteksi Wajah: Menggunakan OpenCV untuk mendeteksi wajah pengguna melalui webcam.
+-Shutdown Otomatis: Fitur untuk mematikan komputer jika tidak ada aktivitas dalam waktu yang ditentukan.
+-Antarmuka Pengguna Grafis (GUI):
+-Tombol untuk memulai dan menghentikan deteksi.
+-Tampilan status aktivitas pengguna dan deteksi wajah.
+-Tombol "About" yang menampilkan informasi tentang pengembang dan tautan ke situs web.
+-Notifikasi Pengguna: Menampilkan pesan di GUI untuk aktivitas pengguna dan deteksi wajah.
+
+Perbaikan Bug:
+
+-Menyelesaikan masalah deteksi wajah yang terkadang gagal mengenali wajah pengguna.
+-Mengatasi masalah crash ketika aktivitas keyboard dan mouse tidak terdeteksi dengan benar.
+-Menambahkan penguncian thread untuk mencegah konflik antara thread yang berjalan.
+
+Enhancements:
+
+-Penambahan jendela peringatan sebelum shutdown otomatis.
+-Penambahan tombol "OK" untuk menunda shutdown saat peringatan muncul.
+-Penambahan informasi pengembang dan hak cipta di jendela "About".

@@ -1,0 +1,5 @@
+Contoh Penggunaan
+
+Memulai Deteksi: Pengguna dapat mengklik tombol "Mulai" untuk memulai deteksi aktivitas dan wajah.
+Menghentikan Deteksi: Pengguna dapat mengklik tombol "Stop" untuk menghentikan deteksi kapan saja.
+Melihat Informasi Pengembang: Pengguna dapat mengklik tombol "About" untuk melihat informasi tentang pengembang dan mengunjungi situs web terkait.
